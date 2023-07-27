@@ -11,7 +11,7 @@ username = driver.find_element(By.XPATH, "//*[@id='session_key']")
 password = driver.find_element(By.XPATH, "//*[@id='session_password']")
 
 username.send_keys('raadin.dev@gmail.com')
-password.send_keys('radin.linkedin.85')
+password.send_keys('<YOUR PASSWORD>')
 time.sleep(2)
 
 submit = driver.find_element(By.XPATH, "//*[@id='main-content']/section[1]/div/div/form/div[2]/button").click()
