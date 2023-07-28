@@ -17,6 +17,7 @@ time.sleep(2)
 submit = driver.find_element(By.XPATH, "//*[@id='main-content']/section[1]/div/div/form/div[2]/button").click()
 
 ## Add contacts 
+# put any people url you want.
 driver.get("https://www.linkedin.com/search/results/all/?keywords=english%20teacher&origin=QUERY_SUGGESTION&sid=9-s")
 time.sleep(2)
 
